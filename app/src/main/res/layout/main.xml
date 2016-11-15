@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/game">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=" Score: "
+        android:layout_gravity="top|left"
+        android:id="@+id/textView"
+        android:textStyle="bold|italic"
+        android:paddingBottom="5dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:text="KYODAI"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal|top"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="@dimen/abc_action_button_min_width_overflow_material" />
+
+
+    <com.example.sofian.kyodai.kyodaiView android:id="@+id/kyodaiView"
+        android:layout_width="355dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>
+
+
+
+
+

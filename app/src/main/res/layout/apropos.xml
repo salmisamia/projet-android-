@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game"
+    style="@style/Base.AlertDialog.AppCompat.Light">
+
+    <Button
+        android:layout_width="231dp"
+        android:layout_height="72dp"
+        android:text="Retour"
+        android:id="@+id/retour"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="#edeaea"
+        android:textSize="25dp"
+        android:background="#7c0671"
+        android:foregroundGravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="171dp"
+        android:text="Ce projet est realisé par *Salmi Hassina*"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        style="@android:style/TextAppearance.Large"
+        android:textStyle="bold|italic"
+        android:textColorHighlight="#1c011d"
+        android:textColorHint="#300823"
+        android:textColor="#ffffff" />
+
+</FrameLayout>
+
+
+
+
